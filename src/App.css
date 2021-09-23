@@ -46,8 +46,9 @@
 }
 
 .ArticleCardDate {
-  font-size: 14px;
-  margin-bottom: 8px;
+  font-size: 15px;
+  margin-top: 5px;
+  margin-bottom: 20px;
   margin-left: 10px;
 }
 
@@ -57,5 +58,45 @@
 }
 
 .ArticleCardLink {
+  font-weight: bold;
+  margin-top: 22px;
+}
+
+.ArticleHeader {
+  background-color: #e5e5e5;
+  padding: 40px 0;
+}
+
+.ArticleHeaderText {
+  margin: 0 auto;
+  max-width: 640px;
+  padding: 0 25px;
+}
+
+.ArticleHeaderBlurb {
+  font-size: 20px;
+  line-height: 1.2;
+}
+
+.ArticleText {
+  margin: 0 auto;
+  max-width: 640px;
+  padding: 0 25px;
+}
+
+.ArticleText p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.ArticleText h2 {
+  font-size: 36px;
+  font-weight: bold;
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+.ArticleText h3 {
+  font-size: 24px;
   font-weight: bold;
 }
